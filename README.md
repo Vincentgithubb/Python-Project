@@ -1,29 +1,35 @@
 # Empaktor
+
 ## Sommaire
+
 1. [Description Projet](#description)
-    1. [Objectifs](#objectifs)
-    2. [Programmes](#programmes)
-        1. [RLE (Run-Length Encoding)](./empaktor/cmp_rle/rle.py)
-        2. [BWT(Burrows-Wheeler)](./empaktor/cmp_burrows/burrows_wheeler.py)
-        3. [Huffman](./empaktor/cmp_huffman/huffman.py)
-        4. [Empaktor](./empaktor/empaktor.py)
-    3. [Markdowns](#markdowns)  
-        1. [RLE Markdown](./markdowns/rle.md)
-        2. [BWT Markdown](./markdowns/burrows.md)
-        3. [Huffman Markdown](./markdowns/huffman.md)
-        4. [Empaktor Markdown](./empaktor/README_empaktor.md)
+   1. [Objectifs](#objectifs)
+   2. [Programmes](#programmes)
+      1. [RLE (Run-Length Encoding)](./empaktor/cmp_rle/rle.py)
+      2. [BWT(Burrows-Wheeler)](./empaktor/cmp_burrows/burrows_wheeler.py)
+      3. [Huffman](./empaktor/cmp_huffman/huffman.py)
+      4. [Empaktor](./empaktor/empaktor.py)
+   3. [Markdowns](#markdowns)
+      1. [RLE Markdown](./markdowns/rle.md)
+      2. [BWT Markdown](./markdowns/burrows.md)
+      3. [Huffman Markdown](./markdowns/huffman.md)
+      4. [Empaktor Markdown](./empaktor/README_empaktor.md)
 
 # Description
-Dans cette activité, nous avons pour objectif de créer un programme Python appelé ```empaktor.py```.  
+
+Dans cette activité, nous avons pour objectif de créer un programme Python appelé `empaktor.py`.  
 Empaktor est un outil de compression et de décompression de fichiers qui prend en charge différents algorithmes de compression tels que:
-1. ```Huffman```
-2. ```RLE (Run-Length Encoding)```
-3. ```BWT (Burrows-Wheeler Transform)```
+
+1. `Huffman`
+2. `RLE (Run-Length Encoding)`
+3. `BWT (Burrows-Wheeler Transform)`
 
 ## Objectifs
+
 1- Arriver à maitriser des algorithmes de compressions  
 2- Documenter ses algorithmes  
 3- Commenter son code afin de pouvoir le relire où le faire reprendre
+
 ## Programmes
 
 Pour réaliser le fichier de compression principale il nous faut tout d'abord réaliser les différents types de compressions.
